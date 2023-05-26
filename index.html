@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-Messenger</title>
+    <link rel="stylesheet" href="msg.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="pic">
+            <img src="blue-button-chat-260nw-782199499.webp" width="70px" height="70px">
+        </div>
+        <div class="message">
+            <p>
+                <h3 style="text-align: center; font-weight: 100;">Pass The Message</h3>
+                <p style="border-bottom: 2px solid rgb(37, 181, 225);"></p>
+            </p>
+            <p>
+                <label for="message-input">Enter a message</label>
+                <br>
+                <input type="text" id="message-input">
+            </p>
+            <p>
+                <button id="click" onclick="getMessage()">Submit</button>
+            </p>
+            <p id="message-output" style="text-align: center; text-transform: uppercase;"></p>
+        </div>
+    </div>
+    
+</body>
+<script src="msg.js"></script>
+</html>

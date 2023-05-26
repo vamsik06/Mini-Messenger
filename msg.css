@@ -1,0 +1,33 @@
+body{
+    background-image: url(jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
+    background-size: cover;
+    text-align: center;
+}
+h2{
+    color: white;
+
+}
+.container{
+    color:white;
+    border-color: aqua;
+}
+button{
+    cursor: pointer;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: brown;
+    color: white;
+}
+input[type=text]{
+    width: 200px;
+    height: 30px;
+}
+.pic{
+    border-radius: 10px;
+    margin-left: -91%;
+}
